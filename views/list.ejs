@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+
+<body>
+  <div class="newDay"> 
+  <h1> <%= currentDay %></h1>
+</div>
+<div class="tasklists">
+<div class="lists">
+  <!-- <label class="task-item"> -->
+   <% for ( i = 0; i < todayTasks.length; i++) { %>
+    <input type="checkbox" name="taskCheckBox" class="checkbox-check" id="check<%= i %>"> 
+      <li><%= todayTasks[i] %></li>
+        <% } %> 
+      <!-- </label> -->
+   <label class="submit-form">
+  <form action="/" method="post" class="itemsadded">
+    <input type="text" name="newItemToday" class="itemsadded" autocomplete="off" placeholder="type here...">
+    <button type="submit" class="btn">Add Task</button>
+</label>   
+  </form>
+</div>
+</div>
+<footer><%- include("partials/footer.ejs") %></footer>
+</body>
+</html>
+</main>

@@ -1,0 +1,177 @@
+.newDay{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #432818;
+    color: white;
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    font-family: 'Caveat', cursive;
+    font-family: 'Kanit', sans-serif;
+    padding: 20px;
+    }
+    
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFE6A7;
+    
+}
+
+.container{
+    font-family: 'Caveat', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    color:#432818;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:row;
+    margin-bottom: 0;
+
+
+}
+
+.work-today-nav{
+    margin: 0;
+    padding-bottom: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction:row;
+    height: 200px;
+    align-items:flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position:relative;
+
+}
+
+.tasklists{
+    background-color: #BB9457;
+    margin: auto;
+    width: 30%;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    border: 5px#432818, solid ;
+    padding: 50px;
+
+    }
+
+    .btn{
+        background-color: #432818;
+        /* background: transparent; */
+        color: white;
+        font-weight: 600;
+        border-radius:5px;
+        border: 0px solid #432818;
+        box-shadow: none;
+        padding: 10px 15px;
+        font-size: 1rem;
+        box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 3);
+        cursor: pointer;
+
+    }
+
+    .itemsadded{
+        padding: 5px;
+        border-radius: 5px;
+        
+    }
+
+    li{
+        font-family: 'Caveat', cursive;
+        font-family: 'Kanit', sans-serif;
+        font-weight:bold;
+        font-size: 1rem;
+        /* background-color: #BB9457; */
+        border-radius: 5px;
+        padding: 7px;
+        border: black solid;
+        background-color: white;
+        margin: 5px;
+        /* margin-right: 20px; */
+        /* position: relative; */
+        width: 100%;
+        overflow: hidden;
+
+        
+        
+
+    }
+    /* Style the input field by its name attribute */
+input[name="newItemWork"] {
+    /* Your CSS properties here */
+    /* For example: */
+    width: 200px; /* Set the width */
+    padding: 10px; /* Add padding */
+    border: 1px solid #000000; /* Add a border */
+    /* Other styling properties */
+    font-family: 'Caveat', cursive;
+        font-family: 'Kanit', sans-serif;
+        font-weight:bold;
+        border-radius: 5px;
+        border: black solid;
+        box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+        font-size: 1rem;
+        margin: 15px;
+
+
+}
+
+input[name="newItemToday"] {
+    /* Your CSS properties here */
+    /* For example: */
+    width: 200px; /* Set the width */
+    padding: 10px; /* Add padding */
+    border: 1px solid #000000; /* Add a border */
+    /* Other styling properties */
+    font-family: 'Caveat', cursive;
+        font-family: 'Kanit', sans-serif;
+        font-weight:bold;
+        border-radius: 5px;
+        border: black solid;
+        box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+        font-size: 1rem;
+        margin: 15px;
+
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.btn:hover{
+    background-color: #432818;
+}
+
+input[type="checkbox"]:checked + li {
+    text-decoration: line-through;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "";
+
+}
+
